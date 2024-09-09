@@ -13,14 +13,18 @@ const Home = () => {
   return (
     <HomeContainer>
       <HomeDom>
-        <Title>Home</Title>
+        <Title>REACT 디자인 패턴</Title>
         <Button onClick={() => handleNavigate(1)}>
-          Presentational and Container Pattern
+          1. Presentational and Container Pattern
         </Button>
-        <Button onClick={() => handleNavigate(2)}>2</Button>
-        <Button onClick={() => handleNavigate(3)}>3</Button>
-        <Button onClick={() => handleNavigate(4)}>4</Button>
-        <Button onClick={() => handleNavigate(5)}>5</Button>
+        <Button onClick={() => handleNavigate(2)}>2. HOC Pattern</Button>
+        <Button onClick={() => handleNavigate(3)}>3. Render Props</Button>
+        <Button onClick={() => handleNavigate(4)}>
+          4. Custom Hook - Counter
+        </Button>
+        <Button onClick={() => handleNavigate(5)}>
+          4. Custom Hook - DataFetch
+        </Button>
       </HomeDom>
     </HomeContainer>
   );
