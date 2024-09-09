@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
+// 2. Present 생성
 const Present = ({ users }) => {
   return (
     <List>
